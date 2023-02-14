@@ -1,0 +1,24 @@
+{
+  "name": "bundledseo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ussf-nassrallah/bundledseo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ussf-nassrallah/bundledseo/issues"
+  },
+  "homepage": "https://github.com/Ussf-nassrallah/bundledseo#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}
