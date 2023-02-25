@@ -8,15 +8,16 @@
     <title>Bundledseo home</title>
 
     <style>
-      .cards .card:nth-child(2) {
-        --tw-bg-opacity: 1;
-        background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+      .cards .card:nth-child(1) {
         border-left-width: 2px;
         --tw-border-opacity: 1;
         border-left-color: rgb(37 99 235 / var(--tw-border-opacity));
+
+        --tw-bg-opacity: 1;
+        background-color: rgb(239 246 255 / var(--tw-bg-opacity));
       }
 
-      .cards .card:nth-child(2) h3 {
+      .cards .card:nth-child(1) h3 {
         --tw-text-opacity: 1;
         color: rgb(37 99 235 / var(--tw-text-opacity));
       }
@@ -62,47 +63,78 @@
       <div class="flex flex-row flex-auto rounded-tl-xl rounded-bl-xl shadow-xl">
         <!-- Left Section -->
         <div class="w-1/5 flex flex-col">
-          <div class="bg-red-200 h-24 flex-none">
-            Top
+          <div class="flex-none p-4">
+            <div class="flex items-center space-x-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
+              </svg>
+
+              <h2 class="font-semibold text-2xl flex-auto">You</h2>
+            </div>
+
+            <div class="flex items-center justify-between mt-6">
+              <div class="flex items-center space-x-2">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                    <path fill-rule="evenodd" d="M5.478 5.559A1.5 1.5 0 016.912 4.5H9A.75.75 0 009 3H6.912a3 3 0 00-2.868 2.118l-2.411 7.838a3 3 0 00-.133.882V18a3 3 0 003 3h15a3 3 0 003-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0017.088 3H15a.75.75 0 000 1.5h2.088a1.5 1.5 0 011.434 1.059l2.213 7.191H17.89a3 3 0 00-2.684 1.658l-.256.513a1.5 1.5 0 01-1.342.829h-3.218a1.5 1.5 0 01-1.342-.83l-.256-.512a3 3 0 00-2.684-1.658H3.265l2.213-7.191z" clip-rule="evenodd" />
+                    <path fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v6.44l1.72-1.72a.75.75 0 111.06 1.06l-3 3a.75.75 0 01-1.06 0l-3-3a.75.75 0 011.06-1.06l1.72 1.72V3a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+                  </svg>                                   
+                </div>
+                <p>6</p>
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                    <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                  </svg>                  
+                </div>
+              </div>
+              <div class="flex items-center space-x-2 font-bold">
+                <p class="text-sm">News</p>
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3">
+                    <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                  </svg>                  
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="flex-auto overflow-y-auto cards">
+          <div class="flex-auto overflow-y-auto cards mt-3">
             <!-- New Information Crad (this Card Contain files) -->
             <a href="#" class="block border-b border-gray-300 card hover:bg-gray-100">
-              <div class="p-3 space-y-2">
+              <div class="p-3 space-y-4">
                 <div class="flex flex-row justify-between items-center">
                   <div class="flex items-center flex-row space-x-2">
-                    <img class="w-8 h-8 rounded-full" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="">
+                    <img class="w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="">
                     <h3 class="flex-grow font-semibold">Youssef Nasarllah</h3>
                   </div>
-                  <div class="text-xs bg-green-200 text-green-600 px-2 py-1 font-bold rounded">New</div>
+                  <div class="text-xs bg-green-100 text-green-500 px-2 py-1 font-bold rounded">New</div>
                 </div>
                 <p class="text-sm text-gray-500 font-semibold truncate">Develop Static Responsive Web Page</p>
                 <div class="flex flex-row items-center space-x-2">
-                  <img class="w-6 h-6 rounded-full" src="https://images.unsplash.com/photo-1542178243-bc20204b769f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
-                  <div class="flex items-center space-x-1 bg-blue-200 text-blue-600 px-2 py-1 rounded">
+                  <img class="w-8 h-8 rounded-full" src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGF2YXRhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                  <div class="flex items-center space-x-1 text-blue-600 px-2 py-1 rounded">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M18.375 12.739l-7.693 7.693a4.5 4.5 0 01-6.364-6.364l10.94-10.94A3 3 0 1119.5 7.372L8.552 18.32m.009-.01l-.01.01m5.699-9.941l-7.81 7.81a1.5 1.5 0 002.112 2.13" />
                     </svg>
-                    <span class="text-xs font-semibold text-blue-600 bg-blue-200">Files</span>                    
+                    <span class="text-xs font-semibold text-blue-600">Files</span>                    
                   </div>
                 </div>
               </div>
             </a>
 
             <!-- Old Information Crad (this Card Contain Message) -->
-            <a href="#" class="block border-b border-gray-300 card hover:bg-blue-100">
-              <div class="p-3 space-y-2">
+            <a href="#" class="block border-b border-gray-300 card hover:bg-blue-50">
+              <div class="p-3 space-y-4">
                 <div class="flex flex-row justify-between items-center">
                   <div class="flex items-center flex-row space-x-2">
-                    <span class="w-8 h-8 bg-purple-400 text-white flex justify-center items-center rounded-full font-semibold">YN</span>
+                    <span class="w-10 h-10 bg-purple-400 text-white flex justify-center items-center rounded-full font-semibold">YN</span>
                     <h3 class="flex-grow font-semibold">Youssef Nasarllah</h3>
                   </div>
-                  <div class="text-xs bg-blue-200 text-blue-600 px-2 py-1 font-bold rounded">5d</div>
+                  <div class="text-xs bg-blue-100 text-blue-500 px-2 py-1 font-bold rounded">5d</div>
                 </div>
                 <p class="text-sm text-gray-500 font-semibold truncate">Develop Static Responsive Web Page</p>
                 <div class="flex flex-row items-center space-x-2">
-                  <span class="w-6 h-6 bg-pink-400 text-white flex justify-center items-center rounded-full font-semibold flex-none">IF</span>
+                  <span class="w-8 h-8 bg-pink-400 text-white flex justify-center items-center rounded-full font-semibold flex-none">IF</span>
                   <p class="text-sm font-semibold flex-grow truncate">
                     Sat syft lya Dakchi li golt lik bach nbda nkhdm lik API
                   </p>
@@ -153,7 +185,84 @@
             </div>
           </div>
 
-          <div class="flex-auto overflow-y-auto">b</div>
+          <div class="flex-auto overflow-y-auto p-4">
+            <div class="flex flex-col space-y-3">
+              <!-- Response -->
+              <div class="flex items-start space-x-4">
+                <img class="w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGF2YXRhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <div>
+                  <!-- Messages -->
+                  <div class="flex flex-col items-end space-y-2">
+                    <p class="bg-gray-100 text-gray-600 px-3 py-2 rounded-xl text-sm">Hey, pleace i need a help.</p>
+                  </div>
+
+                  <p class="text-xs text-left text-gray-500 mt-1">5d</p>
+                </div>
+              </div>
+
+              <!-- Send  -->
+              <div class="flex items-start space-x-4 justify-end">
+                <div>
+                  <!-- Messages -->
+                  <div class="flex flex-col items-end space-y-2">
+                    <p class="bg-blue-500 text-white px-3 py-2 rounded-xl text-sm">Hey there</p>
+                    <p class="bg-blue-500 text-white px-3 py-2 rounded-xl text-sm">what do you need help with?</p>
+                  </div>
+          
+                  <p class="text-xs text-right text-blue-500 mt-1">5d</p>
+                </div>
+                <img class="w-10 h-10 rounded-full order-2" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="">
+              </div>
+
+              <!-- Response -->
+              <div class="flex items-start space-x-4">
+                <img class="w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGF2YXRhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <div>
+                  <!-- Messages -->
+                  <div class="flex flex-col items-end space-y-2">
+                    <p class="bg-gray-100 text-gray-600 px-3 py-2 rounded-xl text-sm">
+                      I'm having trouble adding new seats
+                    </p>
+                  </div>
+
+                  <p class="text-xs text-left text-gray-500 mt-1">5d</p>
+                </div>
+              </div>
+
+              <!-- Send  -->
+              <div class="flex items-start space-x-4 justify-end">
+                <div>
+                  <!-- Messages -->
+                  <div class="flex flex-col items-end space-y-2">
+                    <p class="bg-blue-500 text-white px-3 py-2 rounded-xl text-sm">The team will get back to you on this. S&T typically replies in a few hours.</p>
+                  </div>
+          
+                  <p class="text-xs text-right text-blue-500 mt-1">5d</p>
+                </div>
+                <img class="w-10 h-10 rounded-full order-2" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="">
+              </div>
+
+              <!-- Response -->
+              <div class="flex items-start space-x-4">
+                <img class="w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGF2YXRhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <div>
+                  <!-- Messages -->
+                  <div class="flex flex-col items-end space-y-2">
+                    <p class="bg-gray-100 text-gray-600 px-3 py-2 rounded-xl text-sm">
+                     Ok, Great  👍
+                    </p>
+                  </div>
+
+                  <p class="text-xs text-left text-gray-500 mt-1">5d</p>
+                </div>
+              </div>
+
+              <!-- alert -->
+              <p class="text-center text-sm text-gray-500 my-2">
+                Assigned to the default assignee for your workspace (unassigned) 3mth ago
+              </p>
+            </div>
+          </div>
 
           <div class="flex-none p-4 border m-5 rounded shadow-md">
             <ul class="flex items-center space-x-4 text-sm font-semibold text-gray-500">
@@ -165,36 +274,42 @@
               <textarea class="w-full h-14  outline-none rounded p-2 text-sm text-gray-500 font-semibold" placeholder="Type Something"></textarea>
             </div>
 
-            <div class="flex items-center space-x-3 mb-3">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 8.25H7.5a2.25 2.25 0 00-2.25 2.25v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H15M9 12l3 3m0 0l3-3m-3 3V2.25" />
-                </svg>                
+            <div class="flex justify-between">
+              <div class="flex items-center space-x-3 mb-3">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 8.25H7.5a2.25 2.25 0 00-2.25 2.25v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H15M9 12l3 3m0 0l3-3m-3 3V2.25" />
+                  </svg>                
+                </div>
+  
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m8.25 3v6.75m0 0l-3-3m3 3l3-3M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                  </svg>                
+                </div>
+  
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+                  </svg>                
+                </div>
+  
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                  </svg>                
+                </div>
+  
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9.75v6.75m0 0l-3-3m3 3l3-3m-8.25 6a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                  </svg>                
+                </div>
               </div>
 
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m8.25 3v6.75m0 0l-3-3m3 3l3-3M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
-                </svg>                
-              </div>
-
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
-                </svg>                
-              </div>
-
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                </svg>                
-              </div>
-
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 9.75v6.75m0 0l-3-3m3 3l3-3m-8.25 6a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
-                </svg>                
-              </div>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-xs">
+                Send
+              </button>
             </div>
           </div>
         </div>
@@ -215,7 +330,7 @@
               <!-- Card Content -->
               <div class="flex justify-between items-center">
                 <div class="flex items-center flex-row space-x-2">
-                  <span class="w-8 h-8 bg-purple-400 text-white flex justify-center items-center rounded-full font-semibold">YN</span>
+                  <img class="w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="">
                   <h3 class="flex-grow font-semibold flex-none text-sm">Youssef Nasarllah</h3>
                 </div>
                 <div>
@@ -311,7 +426,7 @@
               <!-- Card Content -->
               <div class="flex justify-between items-center">
                 <div class="flex items-center flex-row space-x-2">
-                  <span class="w-8 h-8 bg-purple-400 text-white flex justify-center items-center rounded-full font-semibold">YN</span>
+                  <img class="w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGF2YXRhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
                   <h3 class="flex-grow font-semibold flex-none text-sm">Youssef Nasarllah</h3>
                 </div>
                 <div>
